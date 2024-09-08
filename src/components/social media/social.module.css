@@ -1,0 +1,120 @@
+
+.wrapper1 .button1{
+
+display: inline-block;
+width: 40px;
+height: 40px;
+float: left;
+margin: 0 5px;
+overflow: hidden;
+background:rgba(255, 255, 255, 0.452);
+border-radius: 50px;
+cursor: pointer;
+box-shadow: 0px 10px 10px rgb(0,0,0,0.1);
+transition: all 0.3s ease-out;
+
+
+
+}
+.wrapper1 .button1:hover{
+    width: 150px;
+   align-items: center;
+   
+}
+.wrapper1 .button1 .icon1{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+
+    line-height: 46px;
+    padding-right: 10px;
+    transition: all 0.3s ease-out;
+
+    
+    
+}
+.wrapper1 .button1:hover .icon1 {
+    padding-left: 10px;
+ 
+}
+
+.wrapper1 .button1:nth-child(1):hover .icon1{
+    background: linear-gradient(45deg, #ff99669f, #9966FF);
+ width: 40px;
+    height: 40px;
+    
+}
+.wrapper1 .button1:nth-child(2):hover .icon1{
+    background: linear-gradient(45deg, #ff99669f, #9966FF);
+     width: 40px;
+    height: 40px;
+}
+.wrapper1 .button1:nth-child(3):hover .icon1{
+    background: linear-gradient(45deg, #ff99669f, #9966FF);
+ width: 40px;
+    height: 40px;
+}
+.wrapper1 .button1 .icon1 .i1{
+    font-size: 20px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper1 .button1:hover .icon1 .i1{
+    color: white;
+}
+
+.span1{
+        font-size: 15px;
+    font-weight: 500;
+    /* line-height: 60px; */
+    align-items: center;
+    padding-left: 10px !important;
+    
+    transition: all 0.3s ease-out;
+    
+}
+
+
+.wrapper1 .button1:nth-child(1) span,
+.wrapper1 .button1:nth-child(2) span,
+.wrapper1 .button1:nth-child(3) span:hover{
+
+    font-weight:bold ;
+}
+@media screen and (max-width: 768px) {
+  
+    .wrapper1 .button1{
+      
+        display: flex;
+        flex-direction: row;
+        box-shadow: none;
+       
+       
+        
+    }
+    .wrapper1 .button1 .icon1{
+       
+        display: flex;
+         padding-left: 10px;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        font-size: 0.5em;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+       
+        
+     
+        
+        
+
+    }
+    .span1{
+        padding-left: 50px !important;
+    }
+   }
+

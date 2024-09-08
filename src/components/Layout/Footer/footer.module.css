@@ -1,0 +1,31 @@
+.Footer {
+    /* background: linear-gradient(315deg, #D5DBDB  0%, #cbb6ec 30%); */
+    background-color: #D8BFD8;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+
+}
+
+.FoSection1 {
+    width: 60%;
+    /* background-color: gray; */
+    height: 15vh;
+    align-items: center;
+   display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+.FoSection2 {
+    width: 40%;
+    /* background-color: red; */
+    height: 10vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}

@@ -1,0 +1,39 @@
+.main{
+  
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%; 
+    height: 5vh;
+    overflow: hidden;
+}
+.main.input{
+    height: 5vh;
+}
+.btnCode{
+    background-color: #9966ff;
+    width: 15%;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px) {
+.main{
+    height: 5vh;
+}
+.btnCode{
+    height: 5vh;
+   
+   
+}
+.main.input{
+    height: 3vh;
+    background-color: red;
+}
+
+}

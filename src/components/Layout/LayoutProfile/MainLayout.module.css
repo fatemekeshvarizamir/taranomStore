@@ -1,0 +1,58 @@
+.main {
+    width: 100%;
+
+    font-family: yekan;
+
+    
+
+    
+}
+
+
+
+.maincontent {
+    width: 100%;
+    height: 89vh;
+    padding-top: 20px;
+    
+
+}
+
+.content {
+    background-color: white;
+    width: 78%;
+    height: auto;
+    float: left;
+   
+    border-radius: 10px;
+    border-color: #19457a;
+    margin-left: 20px;
+    border-radius: 30px;
+    border: solid black 2px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.content::-webkit-scrollbar {
+    width: 0;
+}
+
+.drawer {
+    width: 17.5%;
+    height: 85vh;
+    background-color: #100C26;
+    left: 2%; 
+    position: relative;
+    border-radius: 30px;
+    display: flex;
+    direction: rtl;
+   justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+    .drawer {
+        width: 12%;
+        margin-right: 13px;
+        border-radius: 20px;
+    }
+    
+}
+

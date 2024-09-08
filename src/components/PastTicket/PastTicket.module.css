@@ -1,0 +1,177 @@
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 88%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="file"] {
+    border: none;
+    outline: none;
+}
+
+.pastbtn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1d173b;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.7s;
+    width: 20%;
+    margin-left: 60px;
+}
+
+.pastbtn:hover {
+    width: 25%;
+    transition: 0.5s;
+}
+
+.inline {
+    display: flex;
+}
+
+.inlineItem {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.inlineItem:last-child {
+    margin-right: 10px;
+}
+
+.pastMessages {
+    margin-top: 40px;
+}
+
+.message {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.171);
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #d0d0d075;
+    height: 15vh;
+    text-align: start;
+
+
+
+}
+
+.topdiv {
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    width: 100%;
+    background-color: #100c26;
+    color: white;
+    border-radius: 36px;
+    align-items: center;
+    padding-right: 20px;
+    direction: rtl;
+}
+
+.p1 {
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+.pmessage {
+    padding-right: 30px;
+    direction: rtl;
+}
+
+.inputticket {
+    background-color: white;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.171);
+}
+.formGroupbtn{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    right: 5%;
+    padding-bottom: 2%;
+    width: 100;
+}
+.sendbtn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1d173b;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.7s;
+    width: 20%;
+    /* margin-left: 60px; */
+}
+.sendbtn:hover {
+    width: 27% !important;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 768px) {
+    .p1 {
+        white-space: nowrap;
+        font-size: 0.6em;
+        padding-right: 0px;
+        font-weight: bold;
+    }
+
+    .topdiv {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+        padding-right: 0px;
+        overflow: hidden;
+        height: 5vh;
+        border-radius: 5px;
+    }
+
+    .pastbtn {
+        width: 30%;
+    }
+
+    .pastbtn:hover {
+        width: 37%;
+        transition: 0.5s;
+    }
+    .pmessage{
+        font-size: 0.8em;
+
+    }
+    .sendbtn {
+        width: 45%;
+   
+    }
+
+    .sendbtn:hover {
+        width: 45% !important;
+    }
+}

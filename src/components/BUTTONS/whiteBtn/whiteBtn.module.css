@@ -1,0 +1,96 @@
+
+.buttonWi{
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+    display: inline-block;
+  
+    outline: none;
+    border: 2px solid #9966ff;
+   
+    width: 145px;
+    height: 45px;
+    text-transform: uppercase;
+   border-radius: 15%;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #fff;
+    -webkit-box-reflect:beloe 0px linear-gradiend(transparent,#0002);
+    transition: 0.45s;
+    transition-delay: 0s;
+   
+}
+.buttonWi:hover::before{
+    width: 60%;
+    height: 100%;
+    left: -2px;
+    box-shadow: 5px 0 0 #9966ff, 5px 0 0 #9966ff;
+    transition-delay: 0s,0.5s,1s,1s;
+    border-radius: 15%;
+
+}
+
+.buttonWi::before{
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+  
+    height: 2px;
+    background: #9966ff;
+    transition: width 0.5s, right 0.5s,
+                height 0.5s,
+                box-shadow 0.5s;
+    transition-delay: 1s, 0.5s, 0s, 0s;
+    
+}
+.buttonWi::after{
+ 
+    content: "";
+    position: absolute;
+    right: -4px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+  
+    height: 2px;
+    background: #9966ff;
+
+    transition: width 0.5s, right 0.5s,
+                height 0.5s,
+                box-shadow 0.5s;
+    transition-delay: 1s, 0.5s, 0s, 0s;
+
+
+}
+.buttonWi:hover::after{
+    width: 60%;
+    height: 100%;
+    right: -2px;
+    box-shadow: -5px 0 0 #9966ff, -5px 0 0 #9966ff;
+    transition-delay: 0s, 0.5s, 1s,1s;
+    border-radius: 15%;
+    
+
+}
+.buttonWi:hover{
+    transition-delay: 1.5s;
+    color: #000;
+    font-weight: 800;
+    z-index: 1;
+  
+    box-shadow: 0 0 10px #9966ff,
+                0 0 20px #9966ff,
+                0 0 40px #9966ff,
+                0 0 80px #9966ff,
+                0 0 100px #9966ff;
+                
+}
+.buttonWi span{
+    position: relative;
+    z-index: 1;
+
+
+}

@@ -1,0 +1,105 @@
+.orderhistory {
+
+}
+
+.order {
+  border: 1px solid solid;
+  padding: 20px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.171);
+
+  left: 4%;
+  margin-bottom: 2%;
+  width: 92%;
+  position: relative;
+  border-radius: 15px;
+}
+
+.order p {
+  margin: 5px 0;
+}
+
+.orderitem {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.orderitem .item {
+  width: 10%;
+  padding: 0 10px;
+}
+
+.orderitem img {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 11vh;
+  cursor: pointer;
+}
+
+.productname {
+  cursor: pointer;
+}
+
+.invoice {
+  margin-bottom: 20px;
+}
+
+.br {
+  margin-top: 20px;
+  border-top: 2px dotted #000;
+}
+
+.strong {
+  float: right;
+  padding-right: 20px;
+}
+
+.pp {
+  float: left;
+  cursor: pointer;
+}
+
+.status {
+  font-size: 17px;
+
+}
+
+.statusIcon1 {
+  padding-right: 10px;
+  font-size: 20px;
+  color: green;
+}
+
+.statusIcon2 {
+  padding-right: 10px;
+  font-size: 20px;
+  color: orange;
+}
+
+.statusIcon3 {
+  padding-right: 10px;
+  font-size: 20px;
+  color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  .strong {
+    line-height: 5vh;
+    font-size: 15px;
+    width: 100%;
+  }
+  .order{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    
+    }
+  .orderitem {
+    justify-content: space-around;
+  }
+  .orderitem .item {
+    width: 45%;
+    padding: 0 10px;
+  }
+}

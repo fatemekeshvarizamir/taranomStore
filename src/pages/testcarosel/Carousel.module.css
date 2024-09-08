@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #000;
+    /* color: #eee; */
+    font-family: Poppins, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.carousel {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.list {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    opacity: 0;
+    transform: scale(2.9); 
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item.active {
+    opacity: 1;
+    transform: scale(1); 
+}
+
+.content {
+    position: absolute;
+    bottom: 36%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-align: center;
+    width: 80%;
+}
+
+.author, .title, .topic {
+    margin: 5px 0;
+    /* background-color: blue; */
+    position: relative;
+    left: 43%;
+    width: 50%;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: bold;
+    /* background-color: red; */
+    left: 43%;
+    width: 50%;
+    position: relative;
+
+}
+
+.topic {
+    font-size: 2em;
+    color: #f1683a;
+}
+
+.desc {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons button {
+    background-color: #eee;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.thumbnail {
+    position: absolute;
+    bottom: 10px;
+    right:  -10%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.thumbnailItem {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.thumbnailItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+
+    transform: translateY(50px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent 0.5s 1s linear 1 forwards;
+}
+
+.thumbnailContent {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: #fff;
+    background-color: red;
+}
+
+.thumbnailTitle, .thumbnailDescription {
+    margin: 2px 0;
+}
+
+.arrows {
+    position: relative;
+    bottom: 17%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+    left: 14%;
+    
+}
+
+.arrows button {
+    background-color: #eee;
+    border: none;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.arrows button:hover {
+    background-color: #fff;
+}
+
+
+@keyframes showContent {
+    to {
+        transform: translateY(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes showImage {
+    to {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+}
+
+@keyframes showThumbnail {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes effectNext {
+    from {
+        transform: translateX(150px);
+    }
+}
+
+@keyframes runningTime {
+    from { width: 100% }
+    to { width: 0 }
+}
+
+@keyframes outFrame {
+    to {
+        width: 150px;
+        height: 220px;
+        bottom: 50px;
+        left: 50%;
+        border-radius: 20px;
+    }
+}
+
+@keyframes contentOut {
+    to {
+        transform: translateY(-150px);
+        filter: blur(20px);
+        opacity: 0;
+    }
+}
+
+
+.item.active .content .author,
+.item.active .content .title,
+.item.active .content .topic,
+.item.active .content .desc,
+.item.active .content .buttons {
+    transform: translateY(50px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent 0.5s 1s linear 1 forwards;
+    position: relative;
+left: 43%;
+width: 50%;
+    
+
+}
+
+.item.active .content .title {
+    animation-delay: 1.2s !important;
+}
+
+.item.active .content .topic {
+    animation-delay: 1.4s !important;
+}
+
+.item.active .content .desc {
+    animation-delay: 1.6s !important;
+    width: 50%;
+    position: relative;
+    left: 43%;
+}
+
+.item.active .content .buttons {
+    animation-delay: 1.8s !important;
+}
+
+.carousel.next .item img {
+    animation: showImage 0.5s linear 1 forwards;
+}
+
+.carousel.next .thumbnail .thumbnailItem:nth-last-child(1) {
+    overflow: hidden;
+    animation: showThumbnail 0.5s linear 1 forwards;
+}
+
+.carousel.next .thumbnail {
+    animation: effectNext 0.5s linear 1 forwards;
+}
+
+.carousel.next .time,
+.carousel.prev .time {
+    animation: runningTime 3s linear 1 forwards;
+}
+
+.carousel.prev .item img {
+    animation: outFrame 0.5s linear 1 forwards;
+}
+
+.carousel.prev .thumbnail .thumbnailItem:nth-child(1) {
+    overflow: hidden;
+    opacity: 0;
+    animation: showThumbnail 0.5s linear 1 forwards;
+}
+
+.carousel.prev .item.active .content .author,
+.carousel.prev .item.active .content .title,
+.carousel.prev .item.active .content .topic,
+.carousel.prev .item.active .content .desc,
+.carousel.prev .item.active .content .buttons {
+    animation: contentOut 1.5s linear 1 forwards !important;
+}
+
+
+@media screen and (max-width: 678px) {
+    .carousel .content {
+        padding-right: 0;
+    }
+
+    .carousel .title {
+        font-size: 2em;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #000;
+    /* color: #eee; */
+    font-family: Poppins, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.carousel {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.list {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    opacity: 0;
+    transform: scale(2.9); 
+}
+
+.item img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item.active {
+    opacity: 1;
+    transform: scale(1); 
+}
+
+
+.item.active .content .author,
+.item.active .content .title,
+.item.active .content .topic,
+.item.active .content .desc,
+.item.active .content .buttons {
+    transform: translateY(50px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent 0.5s 1s linear 1 forwards;
+}
+
+.item.active .content .title {
+    animation-delay: 1.2s !important;
+}
+
+.item.active .content .topic {
+    animation-delay: 1.4s !important;
+}
+
+.item.active .content .desc {
+    animation-delay: 1.6s !important;
+}
+
+.item.active .content .buttons {
+    animation-delay: 1.8s !important;
+}
+
+
+@keyframes showContent {
+    to {
+        transform: translateY(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes showImage {
+    to {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+}
+
+@keyframes showThumbnail {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes effectNext {
+    from {
+        transform: translateX(150px);
+    }
+}
+
+@keyframes runningTime {
+    from { width: 100% }
+    to { width: 0 }
+}
+
+@keyframes outFrame {
+    to {
+        width: 150px;
+        height: 220px;
+        bottom: 50px;
+        left: 50%;
+        border-radius: 20px;
+    }
+}
+
+@keyframes contentOut {
+    to {
+        transform: translateY(-150px);
+        filter: blur(20px);
+        opacity: 0;
+    }
+}
+
+
+.carousel.next .list .item:nth-child(1) img {
+    animation: showImage 0.5s linear 1 forwards;
+}
+
+.carousel.next .thumbnail .thumbnailItem:nth-last-child(1) {
+    overflow: hidden;
+    animation: showThumbnail 0.5s linear 1 forwards;
+}
+
+.carousel.next .thumbnail {
+    animation: effectNext 0.5s linear 1 forwards;
+}
+
+.carousel.next .time,
+.carousel.prev .time {
+    animation: runningTime 3s linear 1 forwards;
+}
+
+.carousel.prev .list .item img {
+    animation: outFrame 0.5s linear 1 forwards;
+}
+
+.carousel.prev .thumbnail .thumbnailItem:nth-child(1) {
+    overflow: hidden;
+    opacity: 0;
+    animation: showThumbnail 0.5s linear 1 forwards;
+}
+
+.carousel.prev .item.active .content .author,
+.carousel.prev .item.active .content .title,
+.carousel.prev .item.active .content .topic,
+.carousel.prev .item.active .content .desc,
+.carousel.prev .item.active .content .buttons {
+    animation: contentOut 1.5s linear 1 forwards !important;
+}
+
+.carousel .arrows button {
+    background-color: 	white;
+    border: none;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    width: 7%;
+    border-radius: 5%;
+    font-weight: 700;
+    
+}
+.imgK{
+    background-size: cover;
+}
+.carousel .arrows button:hover {
+    background-color: #fff;
+}
+
+.carousel .time {
+    position: absolute;
+    z-index: 1000;
+    width: 0%;
+    height: 3px;
+    background-color: #f1683a;
+    left: 0;
+    top: 0;
+}
+
+
+@media screen and (max-width: 678px) {
+    .carousel .content {
+        padding-right: 0;
+    }
+
+    .carousel .title {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .thumbnail{
+        background-color: green;
+        width: 100%;
+        transform: none;
+        right: 0;
+        justify-content: center;
+    }
+}

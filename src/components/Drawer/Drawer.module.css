@@ -1,0 +1,99 @@
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu1 {
+  width: 90%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.icons {
+  float: right;
+  color: white;
+}
+
+.icondiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 40% 10px 10px 40%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+
+}
+
+.boo {
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.span {
+  padding-right: 10px;
+  color: white ;
+  white-space: nowrap;
+}
+
+.menu1:hover .icons {
+  transform: rotate(360deg);
+}
+
+.menu1:hover .span {
+  transform: translateX(-10px);
+}
+
+.menu1,
+.menu1 .icons,
+.menu1 .icondiv,
+.menu1 .boo,
+.menu1 .span {
+  transition: all 0.3s ease;
+}
+
+.activeLink {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+.activeLinkspan{
+  color: black;
+}
+.activeLinkicons{
+  color: black;
+}
+@media only screen and (max-width: 768px) {
+  .drawer {
+      width: 100%;
+      margin-right: 0;
+  }
+  
+  .menu1 .span {
+      display: none;
+      
+  }
+  .boo{
+    width: 77%;
+  }
+  .icondiv{
+    border-radius: 10px 10px 10px 10px;
+  }
+}

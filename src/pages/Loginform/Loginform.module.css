@@ -1,0 +1,189 @@
+.main {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.right {
+    width: 40%;
+    height: 100vh;
+    float: right;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.left {
+    width: 60%;
+    height: 100vh;
+    float: left;
+}
+
+.leftimg {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.loginform {
+    width: 60%;
+    height: 55vh;
+    position: absolute;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.topdiv {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+}
+
+.h1 {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.logologin {
+    width: 35%;
+}
+
+.label1 {
+    display: block;
+    margin-bottom: 10px;
+    text-align: right;
+    font-weight: 20px;
+    padding-top: 55px;
+}
+
+.inputnumber {
+    width: calc(100% - 15px) !important;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.backgroundImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+.divbuttonlogin{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    height: 12vh;
+    align-items: center;
+}
+.buttonlogin {
+    width: 60% !important;
+    background-color: #1d173b;
+    height: 7vh;
+    
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.buttonlogin:hover {
+    width: 68% !important;
+    transition: 0.5s;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.rememberMeLabel {
+    font-size: 12px;
+    padding-top: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.divrememberMe{
+    display: flex;
+  
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+    vertical-align: middle;
+}
+.checkbox {
+    float: right;
+    vertical-align: middle;
+}
+.inputWrapper{
+    /* background-color: red; */
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 25vh;
+    flex-direction: column;
+    align-items: end;
+}
+@media (max-width: 768px) {
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        overflow: hidden;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+        float: none;
+        display: flex;
+        justify-content: center;
+        box-shadow: none;
+    
+        overflow: hidden;
+    }
+
+    .backgroundImage {
+        width: 100%;
+        height: auto;
+       
+    }
+
+    .loginform {
+        width: 100%;
+       
+        /* right: auto; */
+        height: 60vh;
+      
+        /* border: 2px solid black; */
+     
+        overflow: hidden;
+    }
+    .h1{
+        font-size: 2.5em;
+    }
+    .buttonlogin {
+        width: 60% !important;
+        height: 6.5vh;
+    }
+
+    .buttonlogin:hover {
+        width: 65% !important;
+    }
+}

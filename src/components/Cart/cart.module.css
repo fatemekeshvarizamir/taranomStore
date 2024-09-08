@@ -1,0 +1,491 @@
+.Parent {
+    /* background-color: red; */
+    background: linear-gradient(225deg, #ffffff, #e6e6e6);
+    box-shadow: -5px 5px 18px #6e6e6e,
+        5px -5px 18px #ffffff;
+    width: 100%;
+    height: auto;
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.div1 {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: yellow; */
+    background-color: transparent;
+
+
+}
+
+.Pchaild {
+    display: grid;
+    background-color: transparent;
+    /* background-color: palevioletred; */
+    width: 100%;
+    height: auto;
+    gap: 2%;
+    position: sticky;
+
+
+}
+
+.Textheader {
+    width: 100%;
+    height: 13vh;
+    /* background-color: #9966FF; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.maingradient{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 24vh;
+    /* background-color: red; */
+    
+}
+.gradient {
+    width: 100%;
+    height: 17vh;
+    /* background-color: pink; */
+    background-color: transparent;
+    border-radius: 2%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1%;
+    /* margin-bottom: 2%; */
+
+    /* backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3); */
+
+
+
+}
+
+.PmapEMPTY {
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid #E6E6FA;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-height: 40vh;
+    left: 5%;
+    position: sticky;
+    margin-bottom: 3%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Pmap {
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid #E6E6FA;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-height: 40vh;
+    left: 5%;
+    position: sticky;
+    margin-bottom: 3%;
+}
+
+.saidbarSABAD {
+    background-color: white;
+
+    border: 1px solid #E6E6FA;
+    margin-right: 1%;
+    width: 26%;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.side1 {
+    /* background-color: green; */
+    width: 90%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.side1 p {
+    margin: 0;
+}
+
+.hrsabad{
+    width: 90%;
+
+    left: 5%;
+    position: relative;
+
+}
+
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.Pimg1 {
+
+    background-color: transparent;
+    /* background-color: green; */
+    width: 15%;
+    justify-content: center;
+    height: 17vh;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+}
+
+.img1 {
+    width: 52%;
+    height: 12vh;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: transparent;
+    /* background-color: blueviolet; */
+    background-size: cover;
+
+
+}
+
+.divname {
+    background-color: transparent;
+    /* background-color: greenyellow; */
+    width: 45%;
+    height: 17vh;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+
+
+.divA4 {
+    /* background-color: yellow; */
+    background-color: transparent;
+    width: 100%;
+    height: 26vh;
+    border-radius: 15px;
+    position: sticky;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bakshop {
+    /* background-color: red; */
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Btnrangi {
+    /* background: linear-gradient(45deg, #ff99669f,  #9966FF); */
+    background-color: #9966ff;
+    width: 60%;
+    height: 7vh;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.377);
+
+}
+
+.Btnrangi:hover {
+    width: 75%;
+    transition: 0.5s;
+}
+
+.p2 {
+    /* background-color: gold; */
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.divname h3 {
+    font-size: 1em;
+    font-weight: 500;
+    width: 100%;
+}
+
+.divname h7 {
+    font-size: 0.7em;
+}
+
+.counter {
+    width: 15%;
+    height: 7vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    /* background-color: transparent; */
+    background-color: #E6E6FA;
+    column-gap: 10%;
+    border-radius: 20px;
+    border: 1px solid #E6E6FA;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.301); */
+
+}
+
+.counterbtn {
+    /* background-color: #100C26; */
+    background-color: transparent;
+    width: 27%;
+    height: 6vh;
+    font-size: 0.7em;
+    border: none;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.774);
+
+
+
+}
+
+.pris {
+    background-color: transparent;
+    /* background-color: darkred; */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+
+}
+
+.pris span {
+    font-size: 1em;
+    color: black;
+    /* background-color: rgb(19, 53, 11); */
+    -webkit-text-stroke: 1px #100C26;
+}
+
+.Premovebtn {
+    /* background-color: green; */
+    width: 8%;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.removebtn {
+    background-color: #E5E4E2;
+    /* background-color: rgb(255, 0, 64); */
+    border: none;
+    width: 60%;
+    height: 6vh;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+    left: 90%;
+    position: sticky;
+    text-align: center;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 4%;
+    color: #71797E;
+}
+
+.emptyCartMessage {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #666;
+}
+
+.clearSABAD {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1%;
+}
+
+.btnclear {
+    width: 60%;
+    background-color: rgb(0, 159, 227);
+    height: 7vh;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.377);
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .p2 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Pmap {
+        width: 100%;
+        left: 0;
+        height: auto;
+        height: auto;
+        min-height: 14vh;
+        justify-content: center;
+        /* background-color: red; */
+
+    }
+
+    .Parent {
+        width: 100%;
+        background-color: gold;
+    }
+
+    .saidbarSABAD {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .gradient {
+        overflow: hidden;
+        justify-content: space-around;
+        gap: 0;
+        height: 10vh;
+        /* background-color: gray; */
+    }
+
+    .divname {
+        width: 10%;
+        /* background-color: red; */
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .divname h3 {
+        font-size: 0.7em;
+    }
+
+    .divname .h7 {
+        font-size: 0.5em;
+        overflow: hidden;
+    }
+
+    .PmapEMPTY p {
+        overflow: hidden;
+
+    }
+
+    .PmapEMPTY {
+        width: 100%;
+
+    }
+
+    .Premovebtn {
+        /* background-color: green; */
+        width: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .removebtn {
+        left: 0;
+        width: 90%;
+        margin: 0;
+        height: 4vh;
+        overflow: hidden;
+    }
+
+    .pris {
+        /* background-color: yellow; */
+        margin: 0;
+        width: 22%;
+    }
+
+    .counter {
+        /* background-color: blue; */
+        width: 25%;
+        max-height: 5vh;
+        overflow: hidden;
+    }
+
+    .Pimg1 {
+        width: 27%;
+        /* background-color: turquoise; */
+    }
+
+    .img1 {
+        width: 80%;
+        object-fit: contain;
+    }
+
+}
+
+/* manitor */
+
+@media only screen and (min-width: 1600px) {
+
+    .removebtn{
+        width: 65%;
+    }
+}
