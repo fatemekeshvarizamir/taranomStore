@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect } from 'react';
 import { useSprings, animated } from '@react-spring/web';
 import styles from './content.module.css';
@@ -65,7 +63,7 @@ export default function Content() {
           }}
         >
           <div className={styles.btntextM}>
-            <h4>{CATEGORIES.category1.data[5].name}</h4>
+            {/* <h4>{CATEGORIES.category1.data[5].name}</h4> */}
             <h5>{CATEGORIES.category1.data[5].description}</h5>
           </div>
           <img src={CATEGORIES.category1.data[5].imageUrl} className={styles.img2} alt={CATEGORIES.category1.data[5].name} />
@@ -80,7 +78,7 @@ export default function Content() {
           }}
         >
           <div className={styles.btntextM}>
-            <h4>{CATEGORIES.category2.data[3].name}</h4>
+            {/* <h4>{CATEGORIES.category2.data[3].name}</h4> */}
             <h5>{CATEGORIES.category2.data[3].description}</h5>
           </div>
           <img src={CATEGORIES.category2.data[3].imageUrl} className={styles.img2} alt={CATEGORIES.category2.data[3].name} />
@@ -95,7 +93,7 @@ export default function Content() {
           }}
         >
           <div className={styles.btntextM}>
-            <h4>{CATEGORIES.category3.data[7].name}</h4>
+            {/* <h4>{CATEGORIES.category3.data[7].name}</h4> */}
             <h5>{CATEGORIES.category3.data[7].description}</h5>
           </div>
           <img src={CATEGORIES.category3.data[7].imageUrl} className={styles.img2} alt={CATEGORIES.category3.data[7].name} />
@@ -110,7 +108,7 @@ export default function Content() {
           }}
         >
           <div className={styles.btntextM}>
-            <h4>{CATEGORIES.category4.data[4].name}</h4>
+            {/* <h4>{CATEGORIES.category4.data[4].name}</h4> */}
             <h5>{CATEGORIES.category4.data[4].description}</h5>
           </div>
           <img src={CATEGORIES.category4.data[4].imageUrl} className={styles.img2} alt={CATEGORIES.category4.data[4].name} />
@@ -138,7 +136,7 @@ export default function Content() {
         >
           <img src={CATEGORIES.category5.data[2].imageUrl} className={styles.img1} alt={CATEGORIES.category5.data[2].name} />
           <div className={styles.btntextM}>
-            <h4>{CATEGORIES.category5.data[2].name}</h4>
+            {/* <h4>{CATEGORIES.category5.data[2].name}</h4> */}
             <h5>{CATEGORIES.category5.data[2].description}</h5>
           </div>
         </animated.div>
@@ -153,7 +151,7 @@ export default function Content() {
         >
           <img src={CATEGORIES.category6.data[7].imageUrl} className={styles.img1} alt={CATEGORIES.category6.data[7].name} />
           <div className={styles.btntextM}>
-            <h4>{CATEGORIES.category6.data[7].name}</h4>
+            {/* <h4>{CATEGORIES.category6.data[7].name}</h4> */}
             <h5>{CATEGORIES.category6.data[7].description}</h5>
           </div>
         </animated.div>
@@ -168,7 +166,7 @@ export default function Content() {
         >
           <img src={CATEGORIES.category7.data[0].imageUrl} className={styles.img1} alt={CATEGORIES.category7.data[0].name} />
           <div className={styles.btntextM}>
-            <h4>{CATEGORIES.category7.data[0].name}</h4>
+            {/* <h4>{CATEGORIES.category7.data[0].name}</h4> */}
             <h5>{CATEGORIES.category7.data[0].description}</h5>
           </div>
         </animated.div>
@@ -183,7 +181,7 @@ export default function Content() {
         >
           <img src={CATEGORIES.category8.data[1].imageUrl} className={styles.img1} alt={CATEGORIES.category8.data[1].name} />
           <div className={styles.btntextM}>
-            <h4>{CATEGORIES.category8.data[1].name}</h4>
+            {/* <h4>{CATEGORIES.category8.data[1].name}</h4> */}
             <h5>{CATEGORIES.category8.data[1].description}</h5>
           </div>
         </animated.div>
