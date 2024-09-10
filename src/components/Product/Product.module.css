@@ -288,9 +288,17 @@
   }
 
   .pagination{
-    padding: 2%;
+    padding: 3%;
+    vertical-align: middle;
+    text-align: center;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
    
   }
+
+  
   
 @media screen and (max-width: 768px) {
     .filter{

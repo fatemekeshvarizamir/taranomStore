@@ -73,7 +73,7 @@
 //       setSelectedProduct(product);
 //       setPopupVisible(true); // باز کردن پاپ‌آپ فرم
 //   };
-  
+
 
 //     const handleProductClick = (categoryId, productId) => {
 //         const selectedProduct = category.data.find(item => item.id.toString() === productId.toString());
@@ -241,6 +241,8 @@ import { useCart } from '../Like/CartContext';
 import Swal from 'sweetalert2';
 import { useSpring, animated } from '@react-spring/web';
 
+import ReactPaginate from 'react-paginate';
+
 export default function Productc() {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 4;
@@ -401,15 +403,19 @@ export default function Productc() {
                         </animated.div>
                     ))}
                 </div>
-                {category.data.length > itemsPerPage && (
-                    <Pagination
+
+                <Pagination
                         className={styles.pagination}
                         current={currentPage}
                         pageSize={itemsPerPage}
                         onChange={handlePageChange}
                         total={sortedItems.length}
+                        
+                       
                     />
-                )}
+               
+               
+
                 {isPopupVisible && (
                     <PopupForm
                         isPopupVisible={isPopupVisible}
@@ -417,6 +423,7 @@ export default function Productc() {
                         handleChange={handleChange}
                         handleContinueShopping={handleContinueShopping}
                         handleClosePopup={handleClosePopup}
+
                     />
                 )}
             </div>

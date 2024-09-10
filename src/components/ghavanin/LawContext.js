@@ -1,11 +1,13 @@
 // LawContext.js
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useState, useContext } from 'react';
 
 const LawContext = createContext();
 
-export const useLaw = () => useContext(LawContext);
+export function useLaw() {
+  return useContext(LawContext);
+}
 
-export const LawProvider = ({ children }) => {
+export function LawProvider({ children }) {
   const [lawChecked, setLawChecked] = useState(false);
 
   return (
@@ -13,4 +15,4 @@ export const LawProvider = ({ children }) => {
       {children}
     </LawContext.Provider>
   );
-};
+}
