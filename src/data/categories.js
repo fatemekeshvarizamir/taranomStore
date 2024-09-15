@@ -96,7 +96,7 @@ export const CATEGORIES = {
                 id: 4,
                 title: 'کد 405',
                 caption: 'لورم ایپس سادگی نامفهوم از صنعت چاپ',
-                detail: 'لاز صنعت چاپ',
+                detail: 'لاز صنعت چاپ'  ,
                 imageUrl: i405,
                 fee: '7,000,000',
                 stars: 1,
@@ -400,7 +400,8 @@ export const CATEGORIES = {
                 id: 28,
                 title: "گوشی",
                 description: "یک تبلت چندمنظوره   .",
-                imageUrl: tablet, fee: '76,800,000',
+                imageUrl: tablet,
+                fee: '76,800,000',
                 views: 2900, // New property
                 releaseDate: '2024-08-27', // New property
                 orders: 370 // New property

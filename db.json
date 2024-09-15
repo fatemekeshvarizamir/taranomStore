@@ -1,0 +1,563 @@
+{
+    "categories": {
+      "category1": {
+        "id": 1,
+        "data": [
+          {
+            "id": 1,
+            "title": "کد 800",
+            "caption": "لورم ز صنعت چاپ",
+            "detail": "لومفهوم",
+            "imageUrl": "/assets/img/standT/401.png",
+            "fee": "76,000,000",
+            "stars": 4,
+            "tags": ["استند", "تسلیت"],
+            "name": "(تومان)قیمت نهایی",
+            "description": "چخبرا",
+            "views": 1500,
+            "releaseDate": "2024-08-01",
+            "orders": 300
+          },
+          {
+            "id": 2,
+            "title": "کد 408",
+            "caption": "لورم ایگوم از صنعت چاپ",
+            "detail": "لورم ایپسوم منم از صنعت چاپ",
+            "imageUrl": "/assets/img/standT/408.png",
+            "fee": "7,000,000",
+            "stars": 3,
+            "tags": ["استند", "تسلیت"],
+            "description": "سفارش ایمار نیز سهیم شوید.",
+            "views": 1500,
+            "releaseDate": "2024-08-01",
+            "orders": 300
+          },
+          {
+            "id": 3,
+            "title": "کد 409",
+            "caption": "لورم ایپسوم متن ساختگیپ",
+            "detail": "لورم ایپسوم از صنعت چاپ",
+            "imageUrl": "/assets/img/standT/409.png",
+            "fee": "2,000,000",
+            "stars": 1,
+            "tags": ["استند", "تسلیت"],
+            "description": "سفتانیز سهیم شوید.",
+            "views": 1500,
+            "releaseDate": "2024-08-01",
+            "orders": 300
+          },
+          {
+            "id": 4,
+            "title": "کد 405",
+            "caption": "لورم ایپس سادگی نامفهوم از صنعت چاپ",
+            "detail": "لاز صنعت چاپ",
+           "imageUrl": "/assets/img/standT/BST2.jpg",
+            "fee": "7,000,000",
+            "stars": 1,
+            "tags": ["استند", "تسلیت"],
+            "description": "سن  نیز  شوید.",
+            "views": 1200,
+            "releaseDate": "2024-09-11",
+            "orders": 200
+          },
+          {
+            "id": 5,
+            "title": " پگ شمع",
+            "caption": " یک شمع زیبا و معطر",
+            "detail": "در رنگ ها و سایز های متنوع",
+           "imageUrl": "/assets/img/standT/BST2.jpg",
+            "fee": "7,000,000",
+            "stars": 1,
+            "tags": ["استند", "تسلیت"],
+            "description": "پک شمع نارنجی",
+            "views": 1200,
+            "releaseDate": "2024-09-11",
+            "orders": 200
+          },
+          {
+            "id": 6,
+            "title": "گل برگ انجیری",
+            "caption": "یک گل زیبا ",
+            "detail": "مناسب برای فضای آپارتمان",
+           "imageUrl": "/assets/img/standT/BST2.jpg",
+            "fee": "7,000,000",
+            "stars": 1,
+            "tags": ["استند", "تسلیت"],
+            "description": "گا زیبا و معطر",
+            "views": 1200,
+            "releaseDate": "2024-08-01",
+            "orders": 200
+          },
+          {
+            "id": 7,
+            "title": " پک جامع",
+            "caption": "این یک پک کامل است",
+            "detail": " جهت رفاه شما  ",
+           "imageUrl": "/assets/img/standT/BST2.jpg",
+            "fee": "7,000,000",
+            "stars": 1,
+            "tags": ["استند", "تسلیت"],
+            "description": "پک کامل",
+            "views": 1200,
+            "releaseDate": "2024-09-11",
+            "orders": 200
+          }
+          
+        ]
+      },
+      "category2": {
+        "id": 2,
+        "data": [
+          {
+            "id": 8,
+            "title": "کد 401",
+            "caption": "لورم ز صنعت چاپ",
+            "detail": "لورم لومفهوم از صنعت چاپ",
+            "imageUrl": "/assets/img/standT/401.png",
+            "fee": "76,000,000",
+            "stars": 4,
+            "tags": ["استند", "تسلیت"],
+            "name": "(تومان)قیمت نهایی",
+            "description": "بر.......",
+            "views": 1700,
+            "releaseDate": "2024-09-20",
+            "orders": 700
+          },
+          {
+            "id": 9,
+            "title": "کد 408",
+            "caption": "لورم ز صنعت چاپ",
+            "detail": "لورم لومفهوم از صنعت چاپ",
+            "imageUrl": "/assets/img/standT/408.png",
+            "fee": "7,000,000",
+            "stars": 3,
+            "tags": ["استند", "تسلیت"],
+            "description": "سفارش ایمار نیز سهیم شوید.",
+            "views": 1700,
+            "releaseDate": "2024-09-20",
+            "orders": 700
+          },
+          {
+            "id": 10,
+            "title": "کد 409",
+            "caption": "لورم ایپسوم متن ساختگیپ",
+            "detail": "لورم  از صنعت چاپ",
+            "imageUrl": "/assets/img/standT/409.png",
+            "fee": "2,000,000",
+            "stars": 1,
+            "tags": ["استند", "تسلیت"],
+            "description": "سفتانیز سهیم شوید.",
+            "views": 1700,
+            "releaseDate": "2024-09-20",
+            "orders": 700
+          },
+          {
+            "id": 11,
+            "title": "کد 405",
+            "caption": "لورم ایپس سادگی نامفهوم از صنعت چاپ",
+            "detail": "لت چاپ",
+            "imageUrl": "/assets/img/standTAB/BSTAB1.jpg",
+            "fee": "7,000,000",
+            "stars": 1,
+            "tags": ["استند", "تسلیت"],
+            "description": "سن بیمار نیز سهیم شوید.",
+            "views": 1700,
+            "releaseDate": "2024-09-20",
+            "orders": 700
+          },
+          {
+            "id": 12,
+            "title": "پک شمع ",
+            "caption": "لورم ز صنعت چاپ",
+            "detail": "لورم لومفهوم از صنعت چاپ",
+            "imageUrl": "/assets/img/standT/BST2.jpg",
+            "fee": "7,000,000",
+            "stars": 1,
+            "tags": ["استند", "تسلیت"],
+            "description": "سلاممم",
+            "views": 1700,
+            "releaseDate": "2024-09-20",
+            "orders": 700
+          }
+          
+        ]
+      },
+      "category3": {
+        "id": 3,
+        "data": [
+          {
+            "id": 13,
+            "title": "کیک 1",
+            "description": "این کیک است 1",
+           "imageUrl": "/assets/img/Cake/img1.jpg",
+            "fee": "76,000,000",
+            "views": 1100,
+            "releaseDate": "2024-01-01",
+            "orders": 100
+          },
+          {
+            "id": 14,
+            "title": "کیک 2",
+            "description": "این کیک است 2",
+           "imageUrl": "/assets/img/Cake/img2.jpg",
+            "fee": "75,000,000",
+            "views": 1100,
+            "releaseDate": "2024-01-01",
+            "orders": 100
+          },
+          {
+            "id": 15,
+            "title": "کیک 3",
+            "description": "این کیک است 3",
+           "imageUrl": "/assets/img/Cake/img3.jpg",
+            "fee": "77,000,000",
+            "views": 1100,
+            "releaseDate": "2024-01-01",
+            "orders": 100
+          },
+          {
+            "id": 16,
+            "title": "کیک 4",
+            "description": "این کیک است 4",
+           "imageUrl": "/assets/img/Cake/img4.jpg",
+            "fee": "72,000,000",
+            "views": 1100,
+            "releaseDate": "2024-01-01",
+            "orders": 100
+          },
+          {
+            "id": 17,
+            "title": "کیک 5",
+            "description": "این کیک است 5",
+           "imageUrl": "/assets/img/Cake/img5.jpg",
+            "fee": "70,000,000",
+            "views": 2100,
+            "releaseDate": "2023-01-01",
+            "orders": 150
+          },
+          {
+            "id": 18,
+            "title": "کیک 6",
+            "description": "این کیک است 6",
+           "imageUrl": "/assets/img/Cake/img6.jpg",
+            "fee": "71,000,000",
+            "views": 2100,
+            "releaseDate": "2023-01-01",
+            "orders": 150
+          },
+          {
+            "id": 19,
+            "title": "کیک 7",
+            "description": "این کیک است 7",
+           "imageUrl": "/assets/img/Cake/img7.jpg",
+            "fee": "75,000,000",
+            "views": 2100,
+            "releaseDate": "2023-01-01",
+            "orders": 150
+          },
+          {
+            "id": 20,
+            "title": "کیک 8",
+            "description": "این کیک است   8",
+           "imageUrl": "/assets/img/Cake/img9.jpg",
+            "fee": "73,000,000",
+            "views": 2100,
+            "releaseDate": "2023-01-01",
+            "orders": 150
+          }
+          
+        ]
+      },
+      "category4": {
+        "id": 4,
+        "data": [
+          {
+            "id": 21,
+            "title": "کتاب ۱",
+            "description": "یک کتاب جذاب درباره تاریخ.",
+            "imageUrl": "path/to/img/book/B1.jpg",
+            "fee": "76,200,000",
+            "views": 1200,
+            "releaseDate": "2024-12-30",
+            "orders": 190
+          },
+          {
+            "id": 22,
+            "title": "کتاب 2",
+            "description": "یک رمان علمی تخیلی هیجان انگیز.",
+            "imageUrl": "path/to/img/book/B2.jpg",
+            "fee": "76,100,000",
+            "views": 1200,
+            "releaseDate": "2024-12-30",
+            "orders": 190
+          },
+          {
+            "id": 23,
+            "title": "کتاب 3",
+            "description": "یک راهنمای جامع در زمینه آشپزی.",
+            "imageUrl": "path/to/img/book/B3.jpg",
+            "fee": "76,300,000",
+            "views": 1200,
+            "releaseDate": "2024-12-30",
+            "orders": 190
+          },
+          {
+            "id": 24,
+            "title": "کتاب 4",
+            "description": "یک راهنمای جامع در زمینه آشپزی.",
+            "imageUrl": "path/to/img/book/B4.jpg",
+            "fee": "76,020,000",
+            "views": 1900,
+            "releaseDate": "2024-12-30",
+            "orders": 40
+          },
+          {
+            "id": 25,
+            "title": "کتاب 5",
+            "description": "یک راهنمای جامع در زمینه آشپزی.",
+            "imageUrl": "path/to/img/book/B4.jpg",
+            "fee": "76,200,000",
+            "views": 1900,
+            "releaseDate": "2024-12-30",
+            "orders": 400
+          }
+        
+        ]
+      },
+      "category5": {
+        "id": 5,
+        "data": [
+          {
+            "id": 26,
+            "title": "لپتاپ",
+            "description": "یک لپتاپ با عملکرد بالا.",
+            "imageUrl": "path/to/img/Electronics/E1.jpg",
+            "fee": "76,200,000",
+            "views": 1900,
+            "releaseDate": "2024-07-22",
+            "orders": 400
+          },
+          {
+            "id": 27,
+            "title": "گوشی هوشمند",
+            "description": "یک مدل جدید گوشی هوشمند.",
+            "imageUrl": "path/to/img/Electronics/E2(2).jpg'",
+            "fee": "76,300,000",
+            "views": 1900,
+            "releaseDate": "2024-07-22",
+            "orders": 400
+          },
+          {
+            "id": 28,
+            "title": "گوشی",
+            "description": "یک تبلت چندمنظوره  ",
+            "imageUrl": "path/to/img/Electronics/E5.jpg",
+            "fee": "76,800,000",
+            "views": 2900,
+            "releaseDate": "2024-08-27",
+            "orders": 370
+          },
+          {
+            "id": 29,
+            "title": "ساعت هوشمند",
+            "description": "یک ساعت هوشمند با امکانات متعدد.",
+            "imageUrl": "path/to/img/Electronics/E4.jpg",
+            "fee": "71,000,000",
+            "views": 2900,
+            "releaseDate": "2024-08-22",
+            "orders": 370
+          }
+         
+        ]
+      },
+      "category6": {
+        "id": 6,
+        "data": [
+          {
+            "id": 30,
+            "title": "مبل",
+            "description": "یک مبل مدرن و راحت.",
+            "imageUrl": "path/to/img/Furniture/F1.jpg",
+            "fee": "56,000,000",
+            "views": 2900,
+            "releaseDate": "2024-08-27",
+            "orders": 370
+          },
+          {
+            "id": 31,
+            "title": "صندلی",
+            "description": "یک صندلی ارگونومیک اداری",
+            "imageUrl": "path/to/img/Furniture/F2.jpg",
+            "fee": "66,000,000",
+            "views": 3900,
+            "releaseDate": "2024-07-17",
+            "orders": 356
+          },
+          {
+            "id": 32,
+            "title": "میز",
+            "description": "یک میز ناهارخوری چوبی شیک.",
+            "imageUrl": "path/to/img/Furniture/F3.jpg",
+            "fee": "86,000,000",
+            "views": 8900,
+            "releaseDate": "2024-01-17",
+            "orders": 356
+          },
+          {
+            "id": 33,
+            "title": "تخت",
+            "description": "ی نفره با فضای ذخیره‌سازی.",
+            "imageUrl": "path/to/img/Furniture/F5.jpg",
+            "fee": "76,000,000",
+            "views": 8900,
+            "releaseDate": "2024-08-27",
+            "orders": 356
+          },
+          {
+            "id": 34,
+            "title": "تحت",
+            "description": "یک تخت خواب دو نفره با فضای ذخیره‌سازی",
+            "imageUrl": "path/to/img/Furniture/F1.jpg",
+            "fee": "36,000,000",
+            "views": 8900,
+            "releaseDate": "2024-07-17",
+            "orders": 356
+          },
+          {
+            "id": 35,
+            "title": "مبل",
+            "description": "یک تخت خواب دو نفره با فضای ذخیره‌سازی.",
+            "imageUrl": "path/to/img/Furniture/F1.jpg",
+            "fee": "86,000,000",
+            "views": 8820,
+            "releaseDate": "2024-08-27",
+            "orders": 156
+          },
+          {
+            "id": 36,
+            "title": "مبل",
+            "description": "یک تخت خواب دو نفره با فضای ",
+            "imageUrl": "path/to/img/Furniture/F1.jpg",
+            "fee": "36,000,000",
+            "views": 2900,
+            "releaseDate": "2024-08-27",
+            "orders": 156
+          },
+          {
+            "id": 37,
+            "title": "مبل",
+            "description": "8820",
+            "imageUrl": "path/to/img/Furniture/F1.jpg",
+            "fee": "86,000,000",
+            "views": 8820,
+            "releaseDate": "2024-08-27",
+            "orders": 156
+          }
+        
+        ]
+      },
+      "category7": {
+        "id": 7,
+        "data": [
+          {
+            "id": 38,
+            "title": "ژاکت",
+            "description": "یک ژاکت زمستانی گرم.",
+            "imageUrl": "path/to/img/Clothing/C5.jpg",
+            "fee": "78,000,000",
+            "views": 8820,
+            "releaseDate": "2024-06-19",
+            "orders": 156
+          },
+          {
+            "id": 39,
+            "title": "پیراهن",
+            "description": "یک پیراهن رسمی شیک.",
+            "imageUrl": "path/to/img/Clothing/C1.jpg",
+            "fee": "73,000,000",
+            "views": 6720,
+            "releaseDate": "2024-05-20",
+            "orders": 186
+          },
+          {
+            "id": 40,
+            "title": "شلوار",
+            "description": "شلوار راحتی برای استفاده روزانه.",
+            "imageUrl": "path/to/img/Clothing/C2.jpg",
+            "fee": "78,500,000",
+            "views": 6720,
+            "releaseDate": "2024-05-20",
+            "orders": 186
+          },
+          {
+            "id": 41,
+            "title": "لباس",
+            "description": "یک لباس شب مجلسی.",
+            "imageUrl": "path/to/img/Clothing/C3.jpg",
+            "fee": "78,000,000",
+            "views": 6720,
+            "releaseDate": "2024-05-20",
+            "orders": 186
+          },
+          {
+            "id": 42,
+            "title": "ژاکت",
+            "description": "یک ژاکت زمستانی گرم.",
+            "imageUrl": "path/to/img/Clothing/C5.jpg",
+            "fee": "88,000,000",
+            "views": 6720,
+            "releaseDate": "2024-06-19",
+            "orders": 186
+          }
+          
+        ]
+      },
+      "category8": {
+        "id": 8,
+        "data": [
+          {
+            "id": 43,
+            "title": "توپ",
+            "description": "یک توپ فوتبال حرفه‌ای.",
+            "imageUrl": "path/to/img/Sports/S3.jpg",
+            "fee": "56,000,000",
+            "views": 5420,
+            "releaseDate": "2024-08-17",
+            "orders": 470
+          },
+          {
+            "id": 44,
+            "title": "راکت",
+            "description": "یک راکت تنیس سبک.",
+            "imageUrl": "path/to/img/Sports/S5.jpg",
+            "fee": "76,000,000",
+            "views": 5420,
+            "releaseDate": "2024-08-17",
+            "orders": 470
+          },
+          {
+            "id": 45,
+            "title": "کفش",
+            "description": "یک جفت کفش فوتبال.",
+            "imageUrl": "path/to/img/Sports/S2.jpg",
+            "fee": "88,000,000",
+            "views": 5420,
+            "releaseDate": "2024-08-17",
+            "orders": 470
+          },
+          {
+            "id": 46,
+            "title": "دستکش",
+            "description": "یک جفت دستکش بوکس.",
+            "imageUrl": "path/to/img/Sports/S4.jpg",
+            "fee": "33,000,000",
+            "views": 5420,
+            "releaseDate": "2024-08-17",
+            "orders": 470
+          }
+       
+        ]
+      }
+    }
+  }
+  
