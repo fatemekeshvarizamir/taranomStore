@@ -17,6 +17,7 @@ export const getCategories = async () => {
     const response = await apiClient.get('/categories');
     return response.data;
   } catch (error) {
+    console.log(response)
     console.error('Error fetching categories:', error);
     throw error;
   }

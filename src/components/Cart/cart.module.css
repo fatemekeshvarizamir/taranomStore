@@ -139,11 +139,15 @@
 }
 
 .hrsabad{
-    width: 90%;
+    /* width: 90%;
 
     left: 5%;
-    position: relative;
+    position: relative; */
 
+
+    border: 0;
+    height: 2px; /* ارتفاع خط */
+    background: linear-gradient(to right, transparent, #00000042 40%, #00000042 60%, transparent);
 }
 
 

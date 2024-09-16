@@ -146,34 +146,34 @@ const Sabad = () => {
             ) : (
               <div className={styles.Pmap}>
                 {cart.map((product) => (
-                <div className={styles.maingradient}>
-                   <div key={product.id} className={styles.gradient}>
-                    <div className={styles.Premovebtn}>
-                      <button onClick={() => removeFromCart(product.id)} className={styles.removebtn}>
-                        <box-icon name='x' color='#36454f' style={{ overflow: "hidden" }}></box-icon>
-                      </button>
-                    </div>
-                    
-                    <div className={styles.pris}>{product.fee}</div>
-                    <div className={styles.counter}>
-                      <button onClick={() => decrementQuantity(product.id)} className={styles.counterbtn}>
-                        <MinusOutlined />
-                      </button>
-                      <span>{product.quantity}</span>
-                      <button onClick={() => incrementQuantity(product.id)} className={styles.counterbtn}>
-                        <PlusOutlined />
-                      </button>
-                    </div>
-                    <div className={styles.divname}>
-                      <h3>{product.title}</h3>
-                      <h7>{product.detail}</h7>
-                    </div>
-                    <div className={styles.Pimg1}>
-                      <img src={product.imageUrl} className={styles.img1} alt={product.title} />
-                      
-                    </div>
-                    
-                  </div><div className={styles.hrsabad} ><hr/></div>
+                  <div className={styles.maingradient}>
+                    <div key={product.id} className={styles.gradient}>
+                      <div className={styles.Premovebtn}>
+                        <button onClick={() => removeFromCart(product.id)} className={styles.removebtn}>
+                          <box-icon name='x' color='#36454f' style={{ overflow: "hidden" }}></box-icon>
+                        </button>
+                      </div>
+
+                      <div className={styles.pris}>{product.fee}</div>
+                      <div className={styles.counter}>
+                        <button onClick={() => decrementQuantity(product.id)} className={styles.counterbtn}>
+                          <MinusOutlined />
+                        </button>
+                        <span>{product.quantity}</span>
+                        <button onClick={() => incrementQuantity(product.id)} className={styles.counterbtn}>
+                          <PlusOutlined />
+                        </button>
+                      </div>
+                      <div className={styles.divname}>
+                        <h3>{product.title}</h3>
+                        <h7>{product.detail}</h7>
+                      </div>
+                      <div className={styles.Pimg1}>
+                        <img src={product.imageUrl} className={styles.img1} alt={product.title} />
+
+                      </div>
+
+                    </div><div ><hr className={styles.hrsabad} /></div>
                   </div>
                 ))}
               </div>
