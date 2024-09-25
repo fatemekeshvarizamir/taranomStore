@@ -363,7 +363,7 @@ export const CATEGORIES = {
             {
                 id: 25,
                 title: "کتاب 5",
-                description: "یک رمان معمایی .",
+                description: "یک رمان سلامم .",
                 imageUrl: book4,
                 fee: '76,400,000',
                 views: 1900, // New property

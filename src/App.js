@@ -78,6 +78,7 @@ import LoginForm from './pages/Loginform/LoginForm';
 import MainLayoutProfile from './components/Layout/LayoutProfile/MainLayout';
 import MainLayout from './components/Layout/Mainlayout/mainLayout';
 import Carouselus from './pages/testcarosel/Carousel';
+import Testhom from './components/Content/Test1';
 
 
 function App() {
@@ -87,6 +88,7 @@ function App() {
         <Router>
           <Routes>
             <Route path='/' element={<Homepage />} />
+            
             <Route path="/CartPage/:categoryId/:productId" element={<CartPage />} />
             <Route path='/Sendpage' element={<SendPage />} />
             <Route path='/SuccessfulP' element={<SuccessfulP />} />

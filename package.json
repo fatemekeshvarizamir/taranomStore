@@ -17,6 +17,7 @@
     "bootstrap": "^5.3.3",
     "boxicons": "^2.1.4",
     "context": "^3.0.29",
+    "json-server": "^1.0.0-beta.2",
     "moment-jalaali": "^0.10.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
@@ -32,11 +33,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+ 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -54,5 +57,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
